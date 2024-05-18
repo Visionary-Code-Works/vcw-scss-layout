@@ -93,12 +93,3 @@ Contributions are welcome! Please read the [contributing guidelines](https://git
 ## License
 
 This project is licensed under the ISC License. See the [LICENSE](LICENSE) file for details.
-```
-
-### Additional Notes:
-
-1. **Customize Links**: Make sure to replace `https://github.com/yourusername/vcw-scss-layout` with the actual URL of your GitHub repository.
-2. **CONTRIBUTING.md**: If you have specific contributing guidelines, you can create a `CONTRIBUTING.md` file and link to it from the README.
-3. **License**: Ensure you have a `LICENSE` file in your repository if you mention it in the README.
-
-This `README.md` provides a comprehensive overview and instructions for your project, making it easier for others to understand and contribute.
