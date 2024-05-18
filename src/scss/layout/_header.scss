@@ -1,0 +1,33 @@
+// _header.scss
+
+.header {
+  background-color: $primary-color;
+  color: #fff;
+  padding: 1rem;
+
+  .header-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .header-nav {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    .nav-item {
+      margin-left: 1rem;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

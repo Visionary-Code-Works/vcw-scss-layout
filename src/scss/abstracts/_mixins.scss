@@ -1,0 +1,55 @@
+// _mixins.scss
+
+// Mixin for clearfix
+@mixin clearfix() {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// Mixin for responsive font sizes
+@mixin responsive-font($size) {
+  font-size: $size;
+  @media (max-width: $breakpoint-md) {
+    font-size: $size * 0.9;
+  }
+  @media (max-width: $breakpoint-sm) {
+    font-size: $size * 0.8;
+  }
+}
+
+// Mixin for center alignment
+@mixin center-align() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// Mixin for setting a gradient background
+@mixin gradient-bg($start-color, $end-color) {
+  background: $start-color;
+  background: linear-gradient(45deg, $start-color, $end-color);
+}
+
+// Mixin for media queries
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == sm {
+    @media (max-width: $breakpoint-sm) {
+      @content;
+    }
+  } @else if $breakpoint == md {
+    @media (max-width: $breakpoint-md) {
+      @content;
+    }
+  } @else if $breakpoint == lg {
+    @media (max-width: $breakpoint-lg) {
+      @content;
+    }
+  } @else if $breakpoint == xl {
+    @media (max-width: $breakpoint-xl) {
+      @content;
+    }
+  }
+}

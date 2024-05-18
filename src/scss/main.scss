@@ -1,0 +1,40 @@
+// main.scss
+
+// Abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'abstracts/functions';
+@import 'abstracts/placeholders';
+
+// Base styles
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/base';
+
+// Layout styles
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/grid';
+@import 'layout/sidebar';
+
+// Component styles
+@import 'components/buttons';
+@import 'components/cards';
+@import 'components/modals';
+
+// Page-specific styles
+@import 'pages/home';
+@import 'pages/about';
+
+// Theme styles
+@import 'themes/dark';
+@import 'themes/light';
+
+// Vendor styles
+@import 'vendors/bootstrap';
+@import 'vendors/normalize';
+
+// Other specific imports
+@import 'styles/error-handlers';
+@import 'styles/mermaid';
+@import 'styles/tables';

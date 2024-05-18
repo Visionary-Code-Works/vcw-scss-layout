@@ -1,0 +1,74 @@
+// _light.scss
+
+body.light-theme {
+  background-color: #f8f9fa;
+  color: #333;
+
+  .header {
+    background-color: $primary-color;
+    color: #fff;
+
+    .header-logo {
+      color: #fff;
+    }
+
+    .header-nav .nav-item a {
+      color: #fff;
+
+      &:hover {
+        color: darken($primary-color, 10%);
+      }
+    }
+  }
+
+  .footer {
+    background-color: $dark-color;
+    color: #fff;
+
+    .footer-links .link-item a {
+      color: #fff;
+
+      &:hover {
+        color: lighten($dark-color, 10%);
+      }
+    }
+  }
+
+  .sidebar {
+    background-color: $secondary-color;
+    color: #fff;
+
+    .sidebar-header {
+      color: #fff;
+    }
+
+    .sidebar-nav .nav-item a {
+      color: #fff;
+
+      &:hover {
+        color: lighten($secondary-color, 10%);
+      }
+    }
+  }
+
+  .card {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+
+    .card-header {
+      background-color: rgba(0, 0, 0, 0.03);
+      color: #333;
+    }
+
+    .card-body {
+      background-color: #fff;
+      color: #333;
+    }
+
+    .card-footer {
+      background-color: rgba(0, 0, 0, 0.03);
+      color: #333;
+    }
+  }
+}

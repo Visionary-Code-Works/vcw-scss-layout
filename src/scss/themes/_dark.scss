@@ -1,0 +1,74 @@
+// _dark.scss
+
+body.dark-theme {
+  background-color: #121212;
+  color: #e0e0e0;
+
+  .header {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+
+    .header-logo {
+      color: #e0e0e0;
+    }
+
+    .header-nav .nav-item a {
+      color: #e0e0e0;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+
+  .footer {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+
+    .footer-links .link-item a {
+      color: #e0e0e0;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+
+  .sidebar {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+
+    .sidebar-header {
+      color: #e0e0e0;
+    }
+
+    .sidebar-nav .nav-item a {
+      color: #e0e0e0;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+
+  .card {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    border: 1px solid #333;
+
+    .card-header {
+      background-color: #2a2a2a;
+      color: #e0e0e0;
+    }
+
+    .card-body {
+      background-color: #1f1f1f;
+      color: #e0e0e0;
+    }
+
+    .card-footer {
+      background-color: #2a2a2a;
+      color: #e0e0e0;
+    }
+  }
+}

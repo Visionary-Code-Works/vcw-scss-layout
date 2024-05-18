@@ -1,0 +1,33 @@
+// _sidebar.scss
+
+.sidebar {
+  background-color: $secondary-color;
+  color: #fff;
+  padding: 1rem;
+  width: 250px;
+  min-height: 100vh;
+
+  .sidebar-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .sidebar-nav {
+    list-style: none;
+    padding: 0;
+
+    .nav-item {
+      margin-bottom: 1rem;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

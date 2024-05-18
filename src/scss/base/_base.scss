@@ -1,0 +1,78 @@
+// _base.scss
+
+body {
+  font-family: $font-family-base;
+  margin: 0;
+  padding: 0;
+  line-height: $line-height-base;
+  background-color: $light-color;
+  color: $dark-color;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacer;
+  padding-left: $spacer;
+
+  @include respond-to(sm) {
+    max-width: 540px;
+  }
+
+  @include respond-to(md) {
+    max-width: 720px;
+  }
+
+  @include respond-to(lg) {
+    max-width: 960px;
+  }
+
+  @include respond-to(xl) {
+    max-width: 1140px;
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.mt-1 {
+  margin-top: $spacer-quarter !important;
+}
+
+.mt-2 {
+  margin-top: $spacer-half !important;
+}
+
+.mt-3 {
+  margin-top: $spacer !important;
+}
+
+.mb-1 {
+  margin-bottom: $spacer-quarter !important;
+}
+
+.mb-2 {
+  margin-bottom: $spacer-half !important;
+}
+
+.mb-3 {
+  margin-bottom: $spacer !important;
+}

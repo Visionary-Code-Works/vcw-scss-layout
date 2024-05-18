@@ -1,0 +1,32 @@
+/* tables.scss */
+.table-header {
+  background-color: #007bff; // Bootstrap primary color
+  color: white;
+}
+
+.table-striped {
+  tbody {
+    tr:nth-of-type(odd) {
+      background-color: rgba(0, 0, 0, 0.05);
+    }
+  }
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.status-completed {
+  color: green;
+  font-weight: bold;
+}
+
+.status-ongoing {
+  color: darkorange;
+  font-weight: bold;
+}
+
+.status-pending {
+  color: red;
+  font-weight: bold;
+}

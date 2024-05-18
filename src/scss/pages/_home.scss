@@ -1,0 +1,29 @@
+// _home.scss
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: $light-color;
+  color: $dark-color;
+
+  &-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  &-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  &-content {
+    max-width: 800px;
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 1.6;
+  }
+}
