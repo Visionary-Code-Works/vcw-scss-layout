@@ -2,5 +2,8 @@
 
 import './scss/main.scss';
 
-// Additional JavaScript code can go here
+export function sum(a, b) {
+  return a + b;
+}
+
 console.log('Webpack and SCSS setup complete');
