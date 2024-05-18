@@ -10,7 +10,8 @@
     "test:e2e": "cypress run",
     "lint:scss": "stylelint \"src/**/*.scss\"",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "release": "standard-version"
   },
   "keywords": [
     "scss",
@@ -66,6 +67,7 @@
     "normalize.css": "^8.0.1",
     "sass": "^1.77.2",
     "sass-loader": "^14.2.1",
+    "standard-version": "^9.5.0",
     "style-loader": "^4.0.0",
     "stylelint": "^16.5.0",
     "stylelint-config-standard": "^36.0.0",
