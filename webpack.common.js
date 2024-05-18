@@ -1,7 +1,7 @@
-const path = require("path");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+import path from 'path';
+import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 
-module.exports = {
+export default {
   entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
@@ -15,8 +15,8 @@ module.exports = {
           process.env.NODE_ENV !== 'production'
             ? 'style-loader'
             : MiniCssExtractPlugin.loader,
-          "css-loader", // Turns CSS into CommonJS
-          "sass-loader", // Compiles Sass to CSS
+          "css-loader",
+          "sass-loader",
         ],
       },
       {
@@ -42,6 +42,7 @@ module.exports = {
         "node_modules/normalize.css/normalize"
       ),
     },
+    modules: [path.resolve(__dirname, "src"), "node_modules"],
   },
   plugins: [
     new MiniCssExtractPlugin({

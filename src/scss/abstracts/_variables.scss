@@ -1,4 +1,5 @@
 /* _variables.scss */
+@use "sass:math";
 
 /* Color variables */
 $primary-color: #007bff;
@@ -14,11 +15,12 @@ $dark-color: #343a40;
 $font-family-base: 'Arial, sans-serif';
 $font-size-base: 16px;
 $line-height-base: 1.5;
+$font-weight-base: 400; /* Ensure this variable is defined */
 
 /* Spacing variables */
 $spacer: 1rem;
-$spacer-half: $spacer / 2;
-$spacer-quarter: $spacer / 4;
+$spacer-half: math.div($spacer, 2);
+$spacer-quarter: math.div($spacer, 4);
 
 /* Breakpoints */
 $breakpoint-sm: 576px;
