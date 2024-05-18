@@ -1,13 +1,10 @@
-// _modals.scss
+/* _modals.scss */
 
 .modal {
   display: none;
   position: fixed;
   z-index: 1050;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
+  inset: 0;
   overflow: hidden;
   outline: 0;
 
@@ -31,7 +28,7 @@
     pointer-events: auto;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgb(0 0 0 / 0.2);
     border-radius: 0.3rem;
     outline: 0;
   }

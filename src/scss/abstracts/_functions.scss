@@ -1,21 +1,21 @@
-// _functions.scss
+/* _functions.scss */
 
-// Function to convert pixels to rems
+/* Function to convert pixels to rems */
 @function px-to-rem($px, $base-font-size: $font-size-base) {
   @return $px / $base-font-size * 1rem;
 }
 
-// Function to darken a color
+/* Function to darken a color */
 @function darken-color($color, $amount: 10%) {
   @return darken($color, $amount);
 }
 
-// Function to lighten a color
+/* Function to lighten a color */
 @function lighten-color($color, $amount: 10%) {
   @return lighten($color, $amount);
 }
 
-// Function to calculate em based on base font size
+/* Function to calculate em based on base font size */
 @function em($px, $base-font-size: $font-size-base) {
   @return $px / $base-font-size * 1em;
 }

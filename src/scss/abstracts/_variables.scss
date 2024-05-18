@@ -1,6 +1,6 @@
-// _variables.scss
+/* _variables.scss */
 
-// Color variables
+/* Color variables */
 $primary-color: #007bff;
 $secondary-color: #6c757d;
 $success-color: #28a745;
@@ -10,17 +10,17 @@ $info-color: #17a2b8;
 $light-color: #f8f9fa;
 $dark-color: #343a40;
 
-// Font variables
+/* Font variables */
 $font-family-base: 'Arial, sans-serif';
 $font-size-base: 16px;
 $line-height-base: 1.5;
 
-// Spacing variables
+/* Spacing variables */
 $spacer: 1rem;
 $spacer-half: $spacer / 2;
 $spacer-quarter: $spacer / 4;
 
-// Breakpoints
+/* Breakpoints */
 $breakpoint-sm: 576px;
 $breakpoint-md: 768px;
 $breakpoint-lg: 992px;

@@ -1,4 +1,4 @@
-// _grid.scss
+/* _grid.scss */
 
 .container {
   width: 100%;
@@ -39,7 +39,9 @@
 }
 
 @for $i from 1 through 12 {
-  .col-#{$i} {
+  .col-#{$i}
+
+ {
     flex: 0 0 percentage($i / 12);
     max-width: percentage($i / 12);
   }

@@ -1,6 +1,6 @@
-// _placeholders.scss
+/* _placeholders.scss */
 
-// Placeholder for clearfix
+/* Placeholder for clearfix */
 %clearfix {
   &::after {
     content: "";
@@ -9,7 +9,7 @@
   }
 }
 
-// Placeholder for visually hidden elements
+/* Placeholder for visually hidden elements */
 %visually-hidden {
   position: absolute;
   width: 1px;
@@ -21,12 +21,14 @@
   border: 0;
 }
 
-// Placeholder for responsive text
+/* Placeholder for responsive text */
 %responsive-text {
   font-size: 1rem;
+
   @include respond-to(md) {
     font-size: 0.875rem;
   }
+
   @include respond-to(sm) {
     font-size: 0.75rem;
   }

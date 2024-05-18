@@ -6,5 +6,5 @@ module.exports = {
   moduleNameMapper: {
     '\\.(scss)$': 'identity-obj-proxy',
   },
-  testEnvironment: 'jsdom',
+  testEnvironment: 'jest-environment-jsdom',
 };

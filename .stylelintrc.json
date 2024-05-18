@@ -1,12 +1,40 @@
 {
   "extends": "stylelint-config-standard",
-  "plugins": ["stylelint-scss"],
+  "plugins": [
+    "stylelint-scss"
+  ],
   "rules": {
+    "import-notation": null,
     "at-rule-no-unknown": [
       true,
       {
-        "ignoreAtRules": ["mixin", "include", "if", "else"]
+        "ignoreAtRules": [
+          "function",
+          "return",
+          "mixin",
+          "include",
+          "if",
+          "else",
+          "for"
+        ]
       }
-    ]
+    ],
+    "function-no-unknown": [
+      true,
+      {
+        "ignoreFunctions": [
+          "darken",
+          "lighten",
+          "percentage"
+        ]
+      }
+    ],
+    "media-query-no-invalid": null,
+    "selector-class-pattern": "^[a-z0-9\\-]+$",
+    "selector-id-pattern": "^[a-z0-9\\-]+$",
+    "no-invalid-double-slash-comments": true,
+    "color-function-notation": "modern",
+    "alpha-value-notation": "number",
+    "no-descending-specificity": null
   }
 }

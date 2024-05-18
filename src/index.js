@@ -1,6 +1,6 @@
 // src/index.js
 
-import './scss/main.scss';
+import '/src/scss/main.scss';
 
 export function sum(a, b) {
   return a + b;
