@@ -31,7 +31,13 @@
     ],
     "media-query-no-invalid": null,
     "selector-class-pattern": "^[a-z0-9\\-]+$",
-    "selector-id-pattern": "^[a-z0-9\\-]+$",
+    "selector-id-pattern": [
+      "^[a-z0-9\\-]+$",
+      {
+        "resolveNestedSelectors": true,
+        "ignore": ["^#__next$"]
+      }
+    ],
     "no-invalid-double-slash-comments": true,
     "color-function-notation": "modern",
     "alpha-value-notation": "number",

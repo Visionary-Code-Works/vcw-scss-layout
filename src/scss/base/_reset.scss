@@ -47,6 +47,6 @@ h6 {
 }
 
 #root,
-#__next {
+#__next { /* stylelint-disable-line selector-id-pattern */
   isolation: isolate;
 }
