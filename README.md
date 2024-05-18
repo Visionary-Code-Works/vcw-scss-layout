@@ -183,7 +183,7 @@ jobs:
 
 ## Contributing
 
-Contributions are welcome! Please read the [contributing guidelines](https://github.com/Visionary-Code-Works/vcw-scss-layout/blob/main/CONTRIBUTING.md) for more information.
+Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) for more information.
 
 ## License
 
