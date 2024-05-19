@@ -1,7 +1,6 @@
 // src/index.js
 
-import './scss/main.scss';
-import '/src/scss/main.scss';
+import 'scss/main.scss';
 /**
  * Adds two numbers together.
  * @param {number} a - The first number.
@@ -25,9 +24,3 @@ document.addEventListener('DOMContentLoaded', () => {
   };
   document.body.appendChild(button);
 });
-
-// Assuming you have a component that can be dynamically imported
-// src/components/largeComponent.js
-export function largeComponent() {
-  console.log('Large component loaded!');
-}

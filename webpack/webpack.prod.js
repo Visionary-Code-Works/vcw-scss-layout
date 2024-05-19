@@ -1,17 +1,20 @@
-// webpack.prod.js
-import { merge } from 'webpack-merge';
-import common from './webpack.common.js';
-import CssMinimizerPlugin from 'css-minimizer-webpack-plugin';
-import CompressionPlugin from 'compression-webpack-plugin';
+// webpack/webpack.prod.js
+const { merge } = require('webpack-merge');
+const common = require('./webpack.common.js');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
+const CompressionPlugin = require('compression-webpack-plugin');
 
-export default merge(common, {
-  mode: "production",
-  devtool: "source-map",
+module.exports = merge(common, {
+  mode: 'production',
+  devtool: 'source-map',
   optimization: {
     minimizer: [
       `...`,
       new CssMinimizerPlugin(),
     ],
+    splitChunks: {
+      chunks: 'all', // This ensures Webpack splits code for dynamic imports
+    },
   },
   plugins: [
     new CompressionPlugin({
