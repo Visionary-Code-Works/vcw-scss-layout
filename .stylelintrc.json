@@ -1,8 +1,6 @@
 {
   "extends": "stylelint-config-standard",
-  "plugins": [
-    "stylelint-scss"
-  ],
+  "plugins": ["stylelint-scss"],
   "rules": {
     "import-notation": null,
     "at-rule-no-unknown": [
@@ -15,18 +13,16 @@
           "include",
           "if",
           "else",
-          "for"
+          "for",
+          "use",
+          "forward"
         ]
       }
     ],
     "function-no-unknown": [
       true,
       {
-        "ignoreFunctions": [
-          "darken",
-          "lighten",
-          "percentage"
-        ]
+        "ignoreFunctions": ["darken", "lighten", "percentage", "math.div"]
       }
     ],
     "media-query-no-invalid": null,
