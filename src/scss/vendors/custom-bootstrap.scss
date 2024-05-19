@@ -1,11 +1,10 @@
 /* src/scss/vendors/custom-bootstrap.scss */
 @import "../abstracts/variables"; // Ensure your custom variables are imported first
-@import "bootstrap/scss/bootstrap";
 
 /* Override Bootstrap variables here */
 $font-size-base: 1rem; // Example variable override
 $line-height-base: 1.5;
 $nav-link-padding-y: 0.5rem;
 
-// /* Import Bootstrap's main SCSS file */
-// @import "/node_modules/bootstrap/scss/bootstrap";
+/* Import Bootstrap's main SCSS file */
+@import "../../../node_modules/bootstrap/scss/bootstrap";
