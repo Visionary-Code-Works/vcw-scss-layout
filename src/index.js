@@ -1,6 +1,6 @@
 // src/index.js
 
-import 'scss/main.scss';
+import './scss/main.scss';
 /**
  * Adds two numbers together.
  * @param {number} a - The first number.

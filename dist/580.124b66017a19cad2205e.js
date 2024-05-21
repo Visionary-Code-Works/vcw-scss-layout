@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkvcw_scss_layout=self.webpackChunkvcw_scss_layout||[]).push([[580],{580:(s,e,o)=>{function c(){console.log("Large component loaded!")}o.r(e),o.d(e,{largeComponent:()=>c})}}]);
-//# sourceMappingURL=580.124b66017a19cad2205e.js.map

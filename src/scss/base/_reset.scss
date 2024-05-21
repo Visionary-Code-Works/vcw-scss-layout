@@ -1,5 +1,10 @@
 /* _reset.scss */
 
+#root,
+#__next { /* stylelint-disable-line selector-id-pattern */
+  isolation: isolate;
+}
+
 /* A modern CSS reset */
 *,
 *::before,
@@ -44,9 +49,4 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
-}
-
-#root,
-#__next { /* stylelint-disable-line selector-id-pattern */
-  isolation: isolate;
 }

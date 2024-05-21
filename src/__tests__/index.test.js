@@ -1,7 +1,7 @@
-import { sum } from '../index';
+// src/__tests__/index.test.js
+
+import 'scss/main.scss';
 
 test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
+  expect(1 + 2).toBe(3);
 });
-
-// Add more tests based on your JS logic

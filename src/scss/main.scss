@@ -1,6 +1,6 @@
 /* main.scss */
 
-@use "sass:math";
+/* @use 'sass:math'; */
 
 /* Abstracts */
 @import 'abstracts/variables';
@@ -31,10 +31,6 @@
 /* Theme styles */
 @import 'themes/dark';
 @import 'themes/light';
-
-/* Vendor styles */
-@import 'vendors/bootstrap';
-@import 'vendors/normalize';
 
 /* Other specific imports */
 @import 'styles/error-handlers';
