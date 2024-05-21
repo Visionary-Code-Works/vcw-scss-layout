@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkvcw_scss_layout=self.webpackChunkvcw_scss_layout||[]).push([[261],{261:(s,c,e)=>{function u(){}e.r(c),e.d(c,{largeComponent:()=>u})}}]);
+//# sourceMappingURL=261.2aa86211e23ec59ea8b4.js.map

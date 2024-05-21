@@ -1,0 +1,1 @@
+{"version":3,"file":"261.2aa86211e23ec59ea8b4.js","mappings":"gHACO,SAASA,IAEhB,C","sources":["webpack://vcw-scss-layout/./src/components/largeComponent.js"],"sourcesContent":["// src/components/largeComponent.js\r\nexport function largeComponent() {\r\n  console.log('Large component loaded!');\r\n}"],"names":["largeComponent"],"sourceRoot":""}
