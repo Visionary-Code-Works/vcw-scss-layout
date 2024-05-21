@@ -1,6 +1,6 @@
 {
   "name": "vcw-scss-layout",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A project setup for SCSS with Webpack",
   "main": "src/index.js",
   "scripts": {
